@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.app-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.content {
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.policy-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #646464;
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+h3 {
+    margin-top: 30px; /* Space between list items */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+@media (max-width: 768px) {
+    .app-name {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .policy-text p {
+        text-align: justify;
+    }
+}
